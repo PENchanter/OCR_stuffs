@@ -9,7 +9,7 @@ SetWorkingDir, %A_ScriptDir%
 ;	NOTES: Optical character recognition (OCR) with UWP API
 
 SetSysTrayIcon:
-v_scriptICON := A_ScriptDir . "\_icons_" . "\OCR icon 256x.ico"
+v_scriptICON := A_ScriptDir . "\OCR icon 256x.ico"
 If FileExist(v_scriptICON)
 	Menu Tray, Icon, %v_scriptICON%, 1
 v_scriptICON := ""
